@@ -1,0 +1,19 @@
+Qmax,Total capacity,1,MWh
+Cunit,Cost per unit,"$$1,000",/kWh
+Ccap,Cost of capacity,"$$1,000,000",
+Tmax,Lifetime,20,years
+RoR,Rate of return,3%%,
+Cmon,Monthly cost,"$$5,545.98",/month
+Rbase,Base case storage price,$$7.22,/MWh.h
+Qres,Reservation storage capacity,20%%,of total
+Rcase,Study case storage price,$$1.44,/MWh.h
+Pp,Energy Price,$$100,/MWh
+Q,Storage capacity,0.2,MWh
+T,Desired storage duration,1,h
+P,Power capacity,0.2,MW
+Cbase,Base case hourly storage cost,$$1.44,/h
+Ccase,Study case hourly storage cost,$$0.29,/h
+Chour,Hourly energy cost,$$20,/h
+a_base,Base case storage price sensitivity (a),$$72.21,/MW$^2$.h$^3$
+a_case,Study case storage price sensitivity (a),$$14.44,/MW$^2$.h$^3$
+c,Energy price sensitivity (c),"$$1,000",/MW$^2$.h
