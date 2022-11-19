@@ -14,5 +14,6 @@ P,Power capacity,0.2,MW
 Cbase,Base case hourly storage cost,$$1.44,/h
 Ccase,Study case hourly storage cost,$$0.29,/h
 Chour,Hourly energy cost,$$20,/h
+a_base,Base case storage price sensitivity (a),$$72.21,/MW$^2\cdot$h$^3$
 a_case,Study case storage price sensitivity (a),$$14.44,/MW$^2\cdot$h$^3$
 c,Energy price sensitivity (c),"$$1,000",/MW$^2\cdot$h
