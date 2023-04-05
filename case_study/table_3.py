@@ -38,4 +38,4 @@ with open('table_3.tex','wt') as tex:
     print("\\\\ \\hline",file=tex)
     print("\\end{tabular}",file=tex)
 
-Dispatch(T=1,a=a_case,c=c,Q0=Q0,dQ0=0,QT=QT,dQT=dQT,S=S).plot().savefig("case.png")
+Dispatch(T=1,a=a_case,c=c,Q0=Q0,dQ0=0,QT=QT,dQT=dQT,S=S).plot().savefig("case.png", bbox_inches='tight')
