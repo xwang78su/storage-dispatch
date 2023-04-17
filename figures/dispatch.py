@@ -66,6 +66,7 @@ class Dispatch:
         elif self.a == 0:
             return self.l/(2*self.c*self.T)*t*t + self.dQ0*t + self.Q0
         else:
+            print(self.l)
             laT = self.l/(self.a*self.T)
             return (self.Q0+laT)*cosh(self.w*t) + (self.dQ0/self.w)*sinh(self.w*t) - laT
 
